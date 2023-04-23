@@ -1,0 +1,133 @@
+/* general */
+body {
+    margin-top: 4rem;
+    background: white;
+    color: gold;
+    line-height: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    margin-right: 2rem;
+    max-width: 100%;
+}
+
+#button {
+    padding: 0.6rem 36rem;
+    margin-left: 4.7rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.btnbtn {
+    display: none;
+}
+
+.first { 
+    border-radius: 2px;
+    padding: 2rem;
+    border: gold 2px solid;
+    align-items: center;
+}
+
+#c {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    color: gold;
+    background: white;
+    font-weight: 900;
+    border: gold 2px solid;
+    border-radius: 4px;
+    padding: 0.5rem 9rem;
+    font-size: 0.56rem;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+}
+
+
+
+#general {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    width: 80%;
+}
+
+#general img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px black;
+    width: 150px;
+    height: 150px;
+}
+
+/* logo image */
+.image {
+    align-content: center;
+    margin-left: 38%;
+    margin-right: 40%;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+}
+
+/* apetiezer Section */
+#a {
+    margin-top: 4rem;
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 9rem;
+}
+
+#apetiezer {
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    margin: 2rem 5rem;
+    width: 60.5%;
+    box-shadow: 0 0 4px 6px;
+}
+
+.e {
+    margin: 1rem;
+    margin-bottom: 0;
+    border-right: white 1px solid;
+}
+
+.a {
+    margin: 1rem;
+    border-top: white 1px solid;
+    border-right: white 1px solid;
+}
+
+.b {
+    margin: 1rem;
+    border-right: white 1px solid;
+}
+
+.c{
+    margin: 1rem 1rem 0 1rem;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+/* fourth section */
+#b {
+    margin-top: 4rem;
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 9rem;    
+}
